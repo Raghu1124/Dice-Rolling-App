@@ -47,6 +47,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
         binding.diceImage.setImageResource(imageDice)
-        Toast.makeText(this, "dice is rolled", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "dice is rolled with number ${randomNo}", Toast.LENGTH_SHORT).show()
     }
 }
